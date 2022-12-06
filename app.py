@@ -10,6 +10,3 @@ def home():
     return render_template ("index.html")
  
 #start our application
-if __name__ == "__main__":
-
-    app.run(debug=True)
